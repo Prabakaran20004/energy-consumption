@@ -89,7 +89,7 @@ print('RMSE: '+str(sqrt(mean_squared_error(test_data['AEP_MW'], np.full(len(test
 
 from statsmodels.tsa.stattools import adfuller
 
-
+.
 def adf_test(dataset):
      dftest = adfuller(dataset, autolag = 'AIC')
      print("1. ADF : ",dftest[0])
